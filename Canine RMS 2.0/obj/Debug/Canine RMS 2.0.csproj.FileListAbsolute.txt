@@ -1,0 +1,23 @@
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\Canine RMS 2.0.exe.config
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\Canine RMS 2.0.exe
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\Canine RMS 2.0.pdb
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine RMS 2.0.csproj.AssemblyReference.cache
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine_RMS_2._0.Form1.resources
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine_RMS_2._0.Properties.Resources.resources
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine RMS 2.0.csproj.GenerateResource.cache
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine RMS 2.0.csproj.CoreCompileInputs.cache
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine RMS 2.0.exe
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine RMS 2.0.pdb
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine_RMS_2._0.MnuRep.resources
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\MetroFramework.Design.dll
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\MetroFramework.dll
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\MetroFramework.Fonts.dll
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine R.4A3CD019.Up2Date
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine_RMS_2._0.MnuMaintenance.resources
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\obj\Debug\Canine_RMS_2._0.frmUser.resources
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\MySql.Data.dll
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\System.Memory.dll
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\System.Numerics.Vectors.dll
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\System.Buffers.dll
+D:\ANIME\Some BS\Sprites\Amiya\Canine RMS 2.0\bin\Debug\MySql.Data.xml
