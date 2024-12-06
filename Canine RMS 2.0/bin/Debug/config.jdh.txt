@@ -1,1 +1,0 @@
-Data Source=DESKTOP-HQHBD24\SQLEXPRESS;Initial Catalog=CanineRegistrationManagementSystem;Integrated Security=True
