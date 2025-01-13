@@ -1,5 +1,19 @@
+@font-face{
+    font-family: PhatBoy;
+    src: url(../font/PhatBoy\ Slim.otf);
+}
+
 body{
     background-color: #1e1e1e;
+}
+
+body:after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(../img/facebook-color.png) url(../img/instagram-color.png);
 }
 
 a {
@@ -17,7 +31,6 @@ a {
 .header-main-logo{
     width: fit-content;
     height: 100%;
-    background-color: blanchedalmond;
     padding-left: 60px;
     display: flex;
 }
@@ -30,8 +43,7 @@ a {
 .header-main-nav{
     width: fit-content;
     height: 100%;
-    background-color: rgb(80, 213, 236);
-    
+        
 }
 
 .header-main-nav ul{
@@ -46,23 +58,48 @@ a {
 
 .header-main-nav ul li a{
     padding: 0 10px 0 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Phatboy;
     line-height: 60px;
+    display: block;
+    height: 100%;
+}
+
+.header-main-nav ul li a:hover{
+    color: rgb(183, 206, 100)
 }
 
 .header-main-sm{
-    width: 120px;
+    width: fit-content;
     height: 100%;
-    background-color: rgb(183, 206, 100);
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
     
 }
 
 .header-main-sm-fb{
     width: 20px;
     height: 20px;
-    background-image: url(../img/);
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-fb:hover{
+    background-image: url(../img/facebook-color.png);
+    
 }
 
 .header-main-sm-in{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.header-main-sm-in:hover{
+    background-image: url(../img/instagram-color.png);
+    
 }
