@@ -3,6 +3,11 @@
     src: url(../font/PhatBoy\ Slim.otf);
 }
 
+:root{
+    --site-color-01: #c13854;
+    --site-color-01-hover:var(--site-color-01-hover) #9e2f6e;
+}
+
 body{
     background-color: #1e1e1e;
 }
