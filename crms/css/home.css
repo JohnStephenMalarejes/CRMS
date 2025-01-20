@@ -1,11 +1,4 @@
 main {
-    width: 100%;
-    height: calc(100vh - 60px);
-    margin: 0;
-    background-image: url(../img/Lungmen_Downtown.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +52,19 @@ main .main-quotes{
     position: relative;
     right: 4vh;
     padding-bottom: 8vh;
+    text-shadow: -2px 2px 4px #111;
+}
+
+/* Updates */
+
+.update{
+    border-left: 4px solid var(--site-color-01);
+    padding-left: 20px;
+    margin: 40px 0;
+    text-shadow: -2px 2px 4px #111;
+}
+
+.update-intro{
     text-shadow: -2px 2px 4px #111;
 }
 

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src = "js/ajax.js"></script>
 </head>
 <body>
     <header class="header-main">
@@ -17,7 +18,7 @@
             <img src="img/BE.png" alt="canine">
             <nav class="header-main-nav">
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#" onclick="loadContent('home')">HOME</a></li>
                     <li><a href="#">DATA</a></li>
                     <li><a href="#">SETTINGS</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -32,20 +33,99 @@
     </header>
 
     <main>
-        <div class="main-int">
-            <h1>Welcome<br>to my first<br>website</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Sapiente maxime optio ut 
-                quisquam nobis soluta assumenda atque commodi aliquid corrupti, <br> fuga laborum 
-                quo numquam perspiciatis dolorem iste dignissimos earum debitis.</p>
-            <a href="#">MY WORK</a>
-        </div>
-        <div class="main-quotes">
-            <p>"The world would be a nicer place if everyone had the <br>ability to love 
-            as unconditionally as a dog."<br><br>– M.K. Clinton</p>
-            <p>"Owners of dogs will have noticed that if you provide them with <br>
-                food and water and shelter and affection, they will think you are God..." <br><br>– Christopher Hitchens</p>
+        <div id="content">
+
         </div>
     </main>
+
+    <!--Category-->
+
+    <section class="index-category">
+        <p>Explore</p>
+        <a href="#" class="index-category-box" onclick="loadContent('updates')">
+            <div class="overlay"></div>
+            <h3>Updates</h3>
+        </a>
+        <a href="#" class="index-category-box" onclick="loadContent('about')">
+            <div class="overlay"></div>
+            <h3>About DisQuiz</h3>
+        </a>
+    </section>
+
+    <!--About-->
+
+    <section class="index-about">
+        <div class="wrapper-main index-about-flex">
+            <div class="index-about-img">
+                <img src="img/abou.jpg" alt="vadno">
+            </div>
+                    
+            <div class="index-about-txt">
+                <h2>About the Creator</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non quas repellendus dolorum cupiditate debitis sed ipsum ut corporis? 
+                        Enim voluptate quod sequi aut odio quae illo id quia ipsam repellendus.</p>
+                    <a href="#">Know More</a>
+            </div>
+                    
+            <div class="index-about-skill">
+                    <p>HTML & CSS</p>
+                    <div class="index-about-skill-bar">
+                        <div class="index-about-skill-bar-fill htmlcss"></div>
+                    </div>
+                    <p>PHP</p>
+                    <div class="index-about-skill-bar">
+                        <div class="index-about-skill-bar-fill php"></div>
+                    </div>
+                    <p>JAVA</p>
+                    <div class="index-about-skill-bar">
+                        <div class="index-about-skill-bar-fill java"></div>
+                    </div>
+                    <p>ANDROID</p>
+                        <div class="index-about-skill-bar">
+                        <div class="index-about-skill-bar-fill android"></div>
+                    </div>
+                    <p>PHOTOSHOP</p>
+                        <div class="index-about-skill-bar">
+                        <div class="index-about-skill-bar-fill photoshop"></div>
+                    </div>
+                </div>
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-main">
+        <div class="wrapper-main footer-main-flex">
+            <div class="footer">
+                <img src="img/nj.png" alt="earth">
+                <p>Nieljun Cagalitan<br>
+                    Data Analyst</p>
+            </div>
+            <div class="footer">
+                <img src="img/juv.png" alt="earth">
+                <p>Juvelyn Gamutin<br>
+                Documentation</p>
+            </div>
+             
+
+            <a class = "footer-git" href="#">Get In Touch</a>
+
+            <div class="footer-sitemap">
+                <ul>
+                    <li><a href="#" onclick="loadContent('home')">HOME</a></li>
+                    <li><a href="#">ABOUT ME</a></li>
+                    <li><a href="#" onclick="loadContent('updates')">UPDATES</a></li>
+                    <li><a href="#">ABOUT DISQUIZ</a></li>
+                </ul>
+                <ul>
+                    <li><p>CONTACT ME:</p></li>
+                    <li><p>09950691884</p></li>
+                    <li><p>jdbhhahahahah@gmail.com</p></li>
+                    <li><p>Malinao West, Lila, Bohol, Philippines</p></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
