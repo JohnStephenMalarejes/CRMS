@@ -3,6 +3,11 @@
     src: url(../font/PhatBoy\ Slim.otf);
 }
 
+@font-face {
+    font-family: Oswald;
+    src: url(../font/Oswald-VariableFont_wght.ttf);
+}
+
 :root{
     --site-color-01: #c13854;
     --site-color-01-hover:var(--site-color-01-hover) #9e2f6e;
@@ -19,6 +24,13 @@ body:after{
     overflow: hidden;
     z-index: -1;
     content: url(../img/facebook-color.png) url(../img/instagram-color.png);
+}
+
+h1{
+    font-size: 26px;
+    line-height: 32px;
+    color: #fff;
+    font-family: Oswald;
 }
 
 a {
